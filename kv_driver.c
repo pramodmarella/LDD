@@ -125,5 +125,5 @@ module_init(simple_driver_init);
 module_exit(simple_driver_exit);
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Your Name");
+MODULE_AUTHOR("pramod");
 MODULE_DESCRIPTION("A Simple Linux Device Driver");
