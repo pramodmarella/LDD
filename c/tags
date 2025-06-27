@@ -1,0 +1,184 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BUFFER_COUNT	prac/l1.c	19;"	d	file:
+DEVICE	prac/l1.c	15;"	d	file:
+HEIGHT	prac/l1.c	17;"	d	file:
+ID	ds/reverse_3.c	/^	int ID;$/;"	m	struct:stu	file:
+MAX	non_repeated_ele.c	3;"	d	file:
+MAX	remove_duplicantele.c	3;"	d	file:
+Node	ds/del_midd_node.c	/^struct Node {$/;"	s	file:
+OV5640_CHIP_ID	prac/cam.c	14;"	d	file:
+OV5640_I2C_ADDR	prac/cam.c	11;"	d	file:
+PIXEL_FORMAT	prac/l1.c	18;"	d	file:
+REG_CHIP_ID_HIGH	prac/cam.c	12;"	d	file:
+REG_CHIP_ID_LOW	prac/cam.c	13;"	d	file:
+Sample	without_sizeof.c	/^struct Sample {$/;"	s	file:
+Traversal	ds/reverse_3.c	/^stu * Traversal(stu * T)$/;"	f
+VIDEO_DURATION	prac/l1.c	20;"	d	file:
+WIDTH	prac/l1.c	16;"	d	file:
+a	struct1.c	/^	char a[20];$/;"	m	struct:__anon1	file:
+a	without_sizeof.c	/^    char a;$/;"	m	struct:Sample	file:
+add_begin	ds/del_midd_node.c	/^void add_begin(st **pt)$/;"	f
+add_begin	ds/prac_ds.c	/^void add_begin(sll **ptr)$/;"	f
+b	struct1.c	/^	int b;$/;"	m	struct:__anon1	file:
+b	without_sizeof.c	/^    short int b;$/;"	m	struct:Sample	file:
+bin_sem	prac/rec_sem.c	/^sem_t bin_sem;$/;"	v
+buffer	prac/l1.c	/^struct buffer {$/;"	s	file:
+buffer_index	prac/l1.c	/^    int buffer_index;$/;"	m	struct:thread_args	file:
+buffers	prac/l1.c	/^    struct buffer *buffers;$/;"	m	struct:thread_args	typeref:struct:thread_args::buffer	file:
+c	struct1.c	/^		double c;$/;"	m	union:__anon1::__anon2	file:
+c	without_sizeof.c	/^    double c;$/;"	m	struct:Sample	file:
+callback	ds/prac_ds.c	/^void callback(sll **hp, void (*p)(sll** ))$/;"	f
+cap_video	prac/l1.c	/^void* cap_video(void *arg) {$/;"	f
+captured_bytes	prac/l1.c	/^    size_t captured_bytes;$/;"	m	struct:thread_args	file:
+clear_bits	clear_bit_woutloop.c	/^int clear_bits(int num, int start, int end) {$/;"	f
+client	prac/cam.c	/^    struct i2c_client *client;$/;"	m	struct:ov5640	typeref:struct:ov5640::i2c_client	file:
+clrbit	without_bitwise_set_cl_to.c	/^void clrbit(int x,int pos)$/;"	f
+cond	prac/l1.c	/^    pthread_cond_t cond;$/;"	m	struct:thread_args	file:
+count	prac/static_p.c	/^static int count;$/;"	v	file:
+count_node	ds/del_midd_node.c	/^int count_node(st *pt)$/;"	f
+create_list	ds/reverse_3.c	/^stu * create_list()$/;"	f
+create_node	ds/reverse_3.c	/^stu * create_node()$/;"	f
+d	struct1.c	/^			char d[15];$/;"	m	struct:__anon1::__anon2::__anon3	file:
+data	ds/del_midd_node.c	/^    int data;$/;"	m	struct:Node	file:
+del_middle	ds/del_midd_node.c	/^void del_middle(st **pt)$/;"	f
+e	struct1.c	/^			float e;$/;"	m	struct:__anon1::__anon2::__anon3	file:
+f	prac/l1.c	/^    int f;$/;"	m	struct:thread_args	file:
+fd	prac/l1.c	/^    int fd;$/;"	m	struct:thread_args	file:
+findDuplicates	bitwise/find_duplicate.c	/^void findDuplicates(int arr[], int n) {$/;"	f
+findIntersection	ds/del_midd_node.c	/^st* findIntersection(st*  head1, st * head2) {$/;"	f
+findSingle	bitwise/non_repeated_ele.c	/^int findSingle(int arr[], int n) {$/;"	f
+find_middle_node	ds/prac_ds.c	/^void find_middle_node(sll **ptr)$/;"	f
+flag	prac/l1.c	/^    int flag;$/;"	m	struct:thread_args	file:
+funcA	prac/rec_mutex.c	/^void funcA() {$/;"	f
+funcA	prac/rec_sem.c	/^void* funcA(void *arg) {$/;"	f
+funcB	prac/rec_mutex.c	/^void funcB() {$/;"	f
+funcB	prac/rec_sem.c	/^void* funcB(void *arg) {$/;"	f
+getLength	ds/del_midd_node.c	/^int getLength(st * head) {$/;"	f
+hexCharToDecimal	conversion/hex_dec.c	/^int hexCharToDecimal(char ch) {$/;"	f
+i	without_sizeof.c	/^    int i;$/;"	m	struct:Sample	file:
+inversions	prac/hackerearth/monks.c	/^int inversions(int n, int matrix[n][n]) {$/;"	f
+l	ds/reverse_3.c	/^int l=0;$/;"	v
+length	prac/l1.c	/^    size_t length;$/;"	m	struct:buffer	file:
+lock	prac/cam.c	/^    struct mutex lock;$/;"	m	struct:ov5640	typeref:struct:ov5640::mutex	file:
+lock	prac/l1.c	/^    pthread_mutex_t lock;$/;"	m	struct:thread_args	file:
+main	binary_print.c	/^void main()$/;"	f
+main	bitwise/del_duplicate_ele.c	/^int main() {$/;"	f
+main	bitwise/find_duplicate.c	/^int main() {$/;"	f
+main	bitwise/non_repeated_ele.c	/^int main() {$/;"	f
+main	clear_bit_woutloop.c	/^int main() {$/;"	f
+main	controlstatements/arm.c	/^void main()$/;"	f
+main	controlstatements/strong_num.c	/^void main()$/;"	f
+main	conversion/hex_dec.c	/^int main() {$/;"	f
+main	dm/ndm.c	/^void main()$/;"	f
+main	dm/sdm.c	/^void main()$/;"	f
+main	ds/del_midd_node.c	/^int main()$/;"	f
+main	ds/p1.c	/^void main()$/;"	f
+main	ds/prac_ds.c	/^void main()$/;"	f
+main	ds/reverse_3.c	/^int main()$/;"	f
+main	file/cp_s_d.c	/^void main(int argc,char **argv)$/;"	f
+main	file/mul_cp.c	/^void main(int argc,char **argv)$/;"	f
+main	fork.c	/^void main()$/;"	f
+main	kaprekar_num.c	/^void main()$/;"	f
+main	matrix/mul.c	/^void main()$/;"	f
+main	matrix/transpose.c	/^void main()$/;"	f
+main	merge_sort.c	/^void main()$/;"	f
+main	mul_num.c	/^int main() {$/;"	f
+main	non_repeated_ele.c	/^int main() {$/;"	f
+main	p1.c	/^void main()$/;"	f
+main	prac/even_odd.c	/^void main() {$/;"	f
+main	prac/hackerearth/monks.c	/^int main() {$/;"	f
+main	prac/hackerearth/monks_rotation.c	/^int main(){$/;"	f
+main	prac/hackerrank/aa1.c	/^int main() {$/;"	f
+main	prac/hackerrank/rev.c	/^int main()$/;"	f
+main	prac/l1.c	/^int main() {$/;"	f
+main	prac/p1.c	/^int main() {$/;"	f
+main	prac/p2.c	/^void main()$/;"	f
+main	prac/p3.c	/^void main(extern int argc)$/;"	f
+main	prac/ppp.c	/^int main()$/;"	f
+main	prac/rec_mutex.c	/^int main() {$/;"	f
+main	prac/rec_sem.c	/^int main() {$/;"	f
+main	prac/rm_word.c	/^void main()$/;"	f
+main	prac/static_p1.c	/^void main()$/;"	f
+main	prac/swap_strings.c	/^void main()$/;"	f
+main	prac/swap_strings_20_5.c	/^int main() {$/;"	f
+main	quick_sort.c	/^void main()$/;"	f
+main	r_d_e.c	/^void main()$/;"	f
+main	remove_duplicantele.c	/^int main() {$/;"	f
+main	remove_ele_oneloop.c	/^void main()$/;"	f
+main	selection_sort.c	/^void main()$/;"	f
+main	set_bit_woutloop.c	/^int main() {$/;"	f
+main	small_del.c	/^void main()$/;"	f
+main	strings/rev_without_3v.c	/^void main()$/;"	f
+main	strings/str_len.c	/^void main()$/;"	f
+main	struct1.c	/^int main()$/;"	f
+main	swap_nibbles.c	/^void main()$/;"	f
+main	swap_range_bits.c	/^void main()$/;"	f
+main	swap_string.c	/^void main()$/;"	f
+main	swapp.c	/^void main()$/;"	f
+main	toggle_bit_woutloop.c	/^int main() {$/;"	f
+main	without_bitwise_set_cl_to.c	/^int main()$/;"	f
+main	without_sizeof.c	/^int main() {$/;"	f
+make_equal	prac/p1.c	/^int make_equal (char* T, char* S) {$/;"	f
+merge	merge_sort.c	/^void merge(int *p,int lb,int mid,int ub)$/;"	f
+merge_sort	merge_sort.c	/^void merge_sort(int *p,int lb,int ub)$/;"	f
+next	ds/del_midd_node.c	/^	struct st *next;$/;"	m	struct:st	typeref:struct:st::st	file:
+next	ds/del_midd_node.c	/^    struct Node* next;$/;"	m	struct:Node	typeref:struct:Node::Node	file:
+next	ds/prac_ds.c	/^	struct st *next;$/;"	m	struct:st	typeref:struct:st::st	file:
+next	ds/reverse_3.c	/^	struct stu *next;$/;"	m	struct:stu	typeref:struct:stu::stu	file:
+ov5640	prac/cam.c	/^struct ov5640 {$/;"	s	file:
+ov5640_driver	prac/cam.c	/^module_i2c_driver(ov5640_driver);$/;"	v
+ov5640_driver	prac/cam.c	/^static struct i2c_driver ov5640_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+ov5640_id	prac/cam.c	/^static const struct i2c_device_id ov5640_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+ov5640_of_match	prac/cam.c	/^static const struct of_device_id ov5640_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+ov5640_probe	prac/cam.c	/^static int ov5640_probe(struct i2c_client *client, const struct i2c_device_id *id)$/;"	f	file:
+ov5640_read_reg	prac/cam.c	/^static int ov5640_read_reg(struct i2c_client *client, u16 reg)$/;"	f	file:
+ov5640_remove	prac/cam.c	/^static int ov5640_remove(struct i2c_client *client)$/;"	f	file:
+p	without_sizeof.c	/^    int p;$/;"	m	struct:Sample	file:
+partition	quick_sort.c	/^int partition(int *a,int lb,int ub)$/;"	f
+print_binary	clear_bit_woutloop.c	/^void print_binary(int num) {$/;"	f
+print_binary	set_bit_woutloop.c	/^void print_binary(int num) {$/;"	f
+print_binary	toggle_bit_woutloop.c	/^void print_binary(int num) {$/;"	f
+print_data	ds/del_midd_node.c	/^void print_data(st *pt)$/;"	f
+print_data	prac/static_p.c	/^void print_data()$/;"	f
+print_node	ds/prac_ds.c	/^void print_node(sll *ptr)$/;"	f
+queue	prac/cam.c	/^    struct vb2_queue queue;$/;"	m	struct:ov5640	typeref:struct:ov5640::vb2_queue	file:
+quick_sort	quick_sort.c	/^void quick_sort(int *a,int lb,int ub)$/;"	f
+rec_len	strings/str_len.c	/^int rec_len(char *s)$/;"	f
+rec_rev	strings/rev_without_3v.c	/^void rec_rev(char *p,char *m)$/;"	f
+recursive_mutex	prac/rec_mutex.c	/^pthread_mutex_t recursive_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+removeDuplicates	bitwise/del_duplicate_ele.c	/^int removeDuplicates(int arr[], int n) {$/;"	f
+removeDuplicates	non_repeated_ele.c	/^void removeDuplicates(int arr[], int size) {$/;"	f
+removeDuplicates	remove_duplicantele.c	/^void removeDuplicates(int arr[], int size) {$/;"	f
+reverse	ds/reverse_3.c	/^stu * reverse(stu * t)$/;"	f
+reverse_gen	ds/del_midd_node.c	/^void reverse_gen(st *pt)$/;"	f
+reverse_list	ds/reverse_3.c	/^stu * reverse_list(stu * head,int k,int z)$/;"	f
+rollno	ds/del_midd_node.c	/^	int rollno;$/;"	m	struct:st	file:
+rollno	ds/prac_ds.c	/^	int rollno;$/;"	m	struct:st	file:
+set_bits	set_bit_woutloop.c	/^int set_bits(int num, int start, int end) {$/;"	f
+setbit	without_bitwise_set_cl_to.c	/^void setbit(int x,int pos)$/;"	f
+sll	ds/prac_ds.c	/^}sll;$/;"	t	typeref:struct:st	file:
+st	ds/del_midd_node.c	/^typedef struct st$/;"	s	file:
+st	ds/del_midd_node.c	/^}st;$/;"	t	typeref:struct:st	file:
+st	ds/prac_ds.c	/^typedef struct st$/;"	s	file:
+start	prac/l1.c	/^    void   *start;$/;"	m	struct:buffer	file:
+static_fun	prac/static_p.c	/^void static_fun()$/;"	f
+stu	ds/reverse_3.c	/^typedef struct stu$/;"	s	file:
+stu	ds/reverse_3.c	/^}stu;$/;"	t	typeref:struct:stu	file:
+sum	prac/ppp.c	/^int sum(int *a)$/;"	f
+swap	quick_sort.c	/^void swap(int *a,int *b)$/;"	f
+swap_str	prac/swap_strings.c	/^int swap_str(char *m,char *r,int f,int l)$/;"	f
+swap_str	prac/swap_strings_20_5.c	/^int swap_str(char *m, char *r, int f, int l) {$/;"	f
+thread_args	prac/l1.c	/^struct thread_args {$/;"	s	file:
+toggle	without_bitwise_set_cl_to.c	/^void toggle(int x,int pos)$/;"	f
+toggle_bits	toggle_bit_woutloop.c	/^int toggle_bits(int num, int start, int end) {$/;"	f
+v4l2_dev	prac/cam.c	/^    struct v4l2_device v4l2_dev;$/;"	m	struct:ov5640	typeref:struct:ov5640::v4l2_device	file:
+vdev	prac/cam.c	/^    struct video_device vdev;$/;"	m	struct:ov5640	typeref:struct:ov5640::video_device	file:
+write_video	prac/l1.c	/^void* write_video(void *arg) {$/;"	f
+x	struct1.c	/^		}x;$/;"	m	union:__anon1::__anon2	typeref:struct:__anon1::__anon2::__anon3	file:
+y	struct1.c	/^	}y;$/;"	m	struct:__anon1	typeref:union:__anon1::__anon2	file:
+z	struct1.c	/^}z;$/;"	v	typeref:struct:__anon1
